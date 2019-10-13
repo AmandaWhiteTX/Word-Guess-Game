@@ -69,7 +69,7 @@ document.onkeyup = function (event) {
 
         if (underScore.join("") === chosenflower) {
             document.getElementById("wins").innerHTML = wins;
-            alert(" YOU WON! You guessed " + [chosenflower] +"!");
+            alert(" YOU WON! I am a " + [chosenflower] +"!");
             wins++;
             startGame();
             
@@ -79,7 +79,7 @@ document.onkeyup = function (event) {
         else if (guessesLeft === 0) {
             losses++;
             document.getElementById("losses").innerHTML = losses;
-            alert("You lost");
+            alert("YOU LOSE! I am a " + chosenflower);
             startGame();
 
 
