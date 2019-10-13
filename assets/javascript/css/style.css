@@ -1,0 +1,53 @@
+
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 3.75em;
+    text-align: center;
+    color: #002d3c;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow:
+    -3px -3px 0 #EF8E34,
+    3px -3px 0 #EF8E34,
+    -3px 3px 0 #EF8E34,
+    3px 3px 0 #EF8E34;
+    text-align: center;
+    margin-top: -65px;
+    margin-right: -200px;
+    transform: rotate(-10deg);
+}
+
+    h3{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        font-size: 2.5em;
+        text-align: center;
+        color: #a70ace;
+    }
+
+    .card-header {
+        display: flex;
+        background-color: rgba(201, 15, 15, 0.7);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique;
+    }
+
+    .list-group-item{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique;
+    }
+
+    .userProgress {
+        font-family: 'Bangers', cursive;
+        font-style: oblique;
+    }
+
+   
+  
