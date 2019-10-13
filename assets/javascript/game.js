@@ -26,7 +26,7 @@ function startGame() {
     incorrectGuess = [];
     correctGuess = [];
     underScore = [];
-    guessesLeft = 12;
+    guessesLeft = 10;
     arrayToLower = String.prototype.toLowerCase.apply(flowers).split(",");
     chosenflower = arrayToLower[Math.floor(Math.random() * arrayToLower.length)];
 
@@ -69,7 +69,7 @@ document.onkeyup = function (event) {
 
         if (underScore.join("") === chosenflower) {
             document.getElementById("wins").innerHTML = wins;
-            alert("YOU WON!");
+            alert(" YOU WON! You guessed " + [chosenflower] +"!");
             wins++;
             startGame();
             

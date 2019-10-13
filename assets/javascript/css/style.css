@@ -1,42 +1,44 @@
 
 
 h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lobster', cursive;
     font-style: oblique;
-    font-size: 3.75em;
+    font-size: 95px;
     text-align: center;
-    color: #002d3c;
+    color: #c00635;
 }
 
 h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: oblique;
+    font-family: 'Atma', cursive;
     font-size: 2.5em;
-    color: #fff;
-    text-shadow:
-    -3px -3px 0 #EF8E34,
-    3px -3px 0 #EF8E34,
-    -3px 3px 0 #EF8E34,
-    3px 3px 0 #EF8E34;
+    color: rgb(6, 63, 19);
+    font: outline;
+    text-shadow: -3px -3px 0 #EF8E34,
     text-align: center;
-    margin-top: -65px;
-    margin-right: -200px;
-    transform: rotate(-10deg);
-}
+    margin-top: 35px;
+    
+    }
 
     h3{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'Oregano', cursive;
         font-style: oblique;
         font-size: 2.5em;
         text-align: center;
         color: #a70ace;
     }
-
-    .card-header {
-        display: flex;
-        background-color: rgba(201, 15, 15, 0.7);
+    h4{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-style: oblique;
+        font-size: 16px;
+        text-align: center;
+        color: #f5eff7;
+    }
+    .card-header {
+        background-color: rgba(201, 15, 15, 0.7);
+        font-family: 'Atma', cursive;
+        font-style: oblique;
+        font-size: 30px;
+        text-align: center;
     }
 
     .list-group-item{
@@ -47,7 +49,13 @@ h2 {
     .userProgress {
         font-family: 'Bangers', cursive;
         font-style: oblique;
+        
     }
 
-   
+   .card{
+    margin-left: 320px;
+    margin-right: -250px
+
+   }
+    
   
