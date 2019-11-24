@@ -1,2 +1,3 @@
 # Word-Guess-Game
-Homework 3
+
+https://amandawhitetx.github.io/Word-Guess-Game/
